@@ -32,6 +32,7 @@ dependencies {
     compile "com.github.kittinunf.fuel:fuel:$fuel_version"
     testCompile 'junit:junit:4.12'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    compile "org.jetbrains.anko:anko:$anko_version"
     implementation "org.jetbrains.anko:anko-coroutines:$anko_version"
 }
 repositories {

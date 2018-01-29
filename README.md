@@ -2,6 +2,16 @@
 
 ## little practice of kotlin and flask [server](https://github.com/donnydonny123/ToolBoxServer)
 
+# Day3
+- add download file from server //TODO choose file
+- in order to avoid put filename in url, use `/files/<int:index>` in query (`/files`)
+***
+>手機上會有特殊字元檔案名稱無法顯示的問題 可是不會影響傳送
+>
+>介面上把textview移到下方 之後再解決鍵盤按出來之後會遮住textview的問題
+>
+>不要甚麼都印log阿 會炸記憶體的
+
 # Day1 & 2
 - Kotlin and Okhttp/fuel to connect to [Server](https://github.com/donnydonny123/ToolBoxServer) 
 - Github stuff (ahhh) 
