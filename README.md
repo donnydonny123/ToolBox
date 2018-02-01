@@ -2,7 +2,16 @@
 
 ## little practice of kotlin and flask [server](https://github.com/donnydonny123/ToolBoxServer)
 
-# Day3
+# Day 4
+- new activity when user click download -> select which file to download
+***
+>使用了[gson來parse server的檔案資料](https://stackoverflow.com/questions/44117970/kotlin-data-class-from-json-using-gson), 目前決定先傳檔案名稱和最後修改時間
+>
+>複習怎麼切換activity和listView的用法, listView用之前java的寫法, 可能有更簡潔的寫法
+>
+>之後要加欄位應該也不會太複雜
+
+# Day 3
 - add download file from server //TODO choose file
 - in order to avoid put filename in url, use `/files/<int:index>` in query (`/files`)
 ***
@@ -12,7 +21,7 @@
 >
 >不要甚麼都印log阿 會炸記憶體的
 
-# Day1 & 2
+# Day 1 & 2
 - Kotlin and Okhttp/fuel to connect to [Server](https://github.com/donnydonny123/ToolBoxServer) 
 - Github stuff (ahhh) 
 ***

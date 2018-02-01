@@ -28,19 +28,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:contentDescription="password"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="@+id/editUsername"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editUsername"
-        app:layout_constraintTop_toBottomOf="@+id/editUsername" />
-
-    <EditText
         android:id="@+id/editUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,12 +41,25 @@
         app:layout_constraintStart_toEndOf="@+id/btn_connect"
         app:layout_constraintTop_toTopOf="@+id/btn_connect" />
 
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="false"
+        app:layout_constraintEnd_toEndOf="@+id/editUsername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editUsername"
+        app:layout_constraintTop_toBottomOf="@+id/editUsername" />
+
     <Button
         android:id="@+id/btn_download"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:onClick="serverDownload"
+        android:onClick="downloadFileChoose"
         android:text="Download"
         app:layout_constraintStart_toStartOf="@+id/btn_connect"
         app:layout_constraintTop_toBottomOf="@+id/btn_connect" />
